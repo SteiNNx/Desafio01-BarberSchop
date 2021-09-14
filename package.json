@@ -4,7 +4,8 @@
   "description": "Proyecto Barber Shop",
   "main": "index.js",
   "scripts": {
-    "sass": "sass assets*"
+    "sass": "sass assets/scss/main.scss assets/css/main.css",
+    "sass:watch": "sass --watch --style=compact assets/scss/main.scss assets/css/main.css"
   },
   "author": "Jorge Reyes",
   "license": "ISC"
