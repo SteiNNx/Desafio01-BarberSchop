@@ -1,0 +1,51 @@
+/** __FontAwesome */
+/** Habria que compilar con webpack y usar resolve-url-loader */
+/** 
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    src: url("fontawesome-free-5.15.4-web/webfonts/fa-brands-400.eot?") format("eot"),
+        url("fontawesome-free-5.15.4-web/webfonts/fa-brands-400.woff") format("woff"),
+        url("fontawesome-free-5.15.4-web/webfonts/fa-brands-400.woff2") format("woff2"),
+        url("fontawesome-free-5.15.4-web/webfonts/fa-brands-400.svg") format("svg"),
+        url("fontawesome-free-5.15.4-web/webfonts/fa-brands-400.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    src: url("fontawesome-free-5.15.4-web/webfonts/fa-regular-400.eot?") format("eot"),
+        url("fontawesome-free-5.15.4-web/webfonts/fa-regular-400.woff") format("woff"),
+        url("fontawesome-free-5.15.4-web/webfonts/fa-regular-400.woff2") format("woff2"),
+        url("fontawesome-free-5.15.4-web/webfonts/fa-regular-400.svg") format("svg"),
+        url("fontawesome-free-5.15.4-web/webfonts/fa-regular-400.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    src: url("fontawesome-free-5.15.4-web/webfonts/fa-solid-900.eot?") format("eot"),
+        url("fontawesome-free-5.15.4-web/webfonts/fa-solid-900.woff") format("woff"),
+        url("fontawesome-free-5.15.4-web/webfonts/fa-solid-900.woff2") format("woff2"),
+        url("fontawesome-free-5.15.4-web/webfonts/fa-solid-900.svg") format("svg"),
+        url("fontawesome-free-5.15.4-web/webfonts/fa-solid-900.ttf") format("truetype");
+}
+*/
+
+@import "fontawesome-free-5.15.4-web/scss/fontawesome.scss";
+@import "fontawesome-free-5.15.4-web/scss/brands.scss";
+@import "fontawesome-free-5.15.4-web/scss/solid.scss";
+@import "fontawesome-free-5.15.4-web/scss/regular.scss";
+@import "fontawesome-free-5.15.4-web/scss/v4-shims.scss";
+@import "fontawesome-free-5.15.4-web/scss/_core.scss";
+@import "fontawesome-free-5.15.4-web/scss/_mixins.scss";
+@import "fontawesome-free-5.15.4-web/scss/_icons.scss";
+@import "fontawesome-free-5.15.4-web/scss/_variables.scss";
+@import "fontawesome-free-5.15.4-web/scss/_animated.scss";
+@import "fontawesome-free-5.15.4-web/scss/_bordered-pulled.scss";
+@import "fontawesome-free-5.15.4-web/scss/_fixed-width.scss";
+@import "fontawesome-free-5.15.4-web/scss/_larger.scss";
+@import "fontawesome-free-5.15.4-web/scss/_list.scss";
+@import "fontawesome-free-5.15.4-web/scss/_rotated-flipped.scss";
+@import "fontawesome-free-5.15.4-web/scss/_stacked.scss";
+@import "fontawesome-free-5.15.4-web/scss/_screen-reader.scss";

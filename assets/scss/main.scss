@@ -3,6 +3,7 @@
 @import "abstracts/mixins";
 
 @import "vendors/bootstrap";
+@import "vendors/font-awesome";
 
 @import "base/reset";
 @import "base/typography";
@@ -26,10 +27,3 @@
 @import "themes/admin";
 
 /** End: @import __Main.scss */
-
-body {
-    background-color: red;
-    div {
-        background-color: aqua;
-    }
-}
