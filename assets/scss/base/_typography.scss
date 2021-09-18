@@ -1,7 +1,6 @@
 /** __Typography */
 
-$roboto-regular: "Roboto regular", serif;
-$roboto-light: "Roboto light", serif;
+$roboto-regular: "Roboto", serif;
 
 /** Font Sizes */
 
@@ -10,3 +9,9 @@ $font-size-xl: 30px;
 $font-size-lg: 18px;
 $font-size-md: 16px;
 $font-size-sm: 12px;
+
+/** Implementacion */
+body {
+    font-family: $roboto-regular;
+}
+
