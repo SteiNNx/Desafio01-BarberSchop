@@ -1,1 +1,21 @@
 /** __Buttons */
+.btn-barber {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    font-size: 1rem;
+    padding: 1em 2em;
+    border: 0;
+    border-radius: 30px;
+    color: $white;
+    background-color: $nickel;
+    border-color: $nickel;
+
+    &:hover {
+        background-color: $light-gray;
+        border-color: $light-gray;
+    }
+}

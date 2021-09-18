@@ -1,8 +1,28 @@
 /** __Header */
-.mustache {
-    width: 2.5rem;
-    height: 2.5rem;
-    &__img {
-        width: 100%;
+.header-barbershop {
+    background-image: url("../images/post-image.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    &__tittle-sm {
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+        font-size: $font-size-lg;
+        font-weight: 900;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    &__tittle-xl {
+        font-family: "Playfair Display", serif;
+        font-style: italic;
+        font-size: $font-size-xxl;
+        font-weight: 900;
+        padding-top: 0;
+        padding-bottom: 0;
     }
 }

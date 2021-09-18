@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /** Init: @import __Main.scss */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,900&display=swap");
 /** __Variables */
 /** static-fonts */
 /** Colors */
@@ -48,7 +49,7 @@
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
   --bs-body-color-rgb: 18, 22, 25;
-  --bs-body-bg-rgb: 34, 35, 35;
+  --bs-body-bg-rgb: 18, 22, 25;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
@@ -57,7 +58,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #121619;
-  --bs-body-bg: #222323;
+  --bs-body-bg: #121619;
 }
 
 *,
@@ -26116,16 +26117,23 @@ html {
   box-sizing: inherit;
 }
 
+a {
+  color: #ecbcba;
+  text-decoration: none;
+}
+a:hover {
+  color: #121619;
+}
+
 /** __Typography */
 /** Font Sizes */
 /** Implementacion */
 body {
   font-family: "Roboto", serif;
+  font-weight: 300;
 }
 
 /** __Navigation */
-/** __Grid */
-/** __Header */
 .mustache {
   width: 2.5rem;
   height: 2.5rem;
@@ -26134,14 +26142,66 @@ body {
   width: 100%;
 }
 
+/** __Grid */
+/** __Header */
+.header-barbershop {
+  background-image: url("../images/post-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vw;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.header-barbershop__tittle-sm {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 900;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.header-barbershop__tittle-xl {
+  font-family: "Playfair Display", serif;
+  font-style: italic;
+  font-size: 70px;
+  font-weight: 900;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
 /** __Footer */
 /** __Sidebar */
 /** __Forms */
 /** __Buttons */
+.btn-barber {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  font-size: 1rem;
+  padding: 1em 2em;
+  border: 0;
+  border-radius: 30px;
+  color: #ffffff;
+  background-color: #6c6e70;
+  border-color: #6c6e70;
+}
+.btn-barber:hover {
+  background-color: #d1d1d1;
+  border-color: #d1d1d1;
+}
+
 /** __Carousel */
 /** __Cover */
 /** __Dropdown */
 /** __Home */
+.section-blog p {
+  line-height: 2 !important;
+}
+
 /** __Contact */
 /** __Theme */
 /** __Admin */

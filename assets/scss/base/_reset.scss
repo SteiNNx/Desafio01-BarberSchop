@@ -8,3 +8,11 @@ html {
 *::after {
 	box-sizing: inherit;
 }
+
+a {
+	color: $spanish-pink;
+	text-decoration: none;
+	&:hover {
+		color: $eerie-black;
+	}
+}
