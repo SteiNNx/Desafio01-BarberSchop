@@ -2,7 +2,6 @@
   "name": "blog-barbershop",
   "version": "1.0.0",
   "description": "Proyecto Barber Shop",
-  "main": "index.js",
   "scripts": {
     "sass": "sass --style=expanded --no-source-map assets/scss/main.scss assets/css/main.css",
     "sass:watch": "sass --watch --style=expanded --no-source-map assets/scss/main.scss assets/css/main.css"

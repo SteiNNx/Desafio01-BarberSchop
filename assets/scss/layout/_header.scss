@@ -9,20 +9,18 @@
     align-items: center;
 
     &__tittle-sm {
-        font-family: "Playfair Display", serif;
-        font-style: italic;
+        font-family: $playfair-display;
+        font-style: $italic;
         font-size: $font-size-lg;
-        font-weight: 900;
-        padding-top: 0;
-        padding-bottom: 0;
+        font-weight: $font-weight-900;
+        padding: 0 5rem 0 5rem;
     }
 
     &__tittle-xl {
         font-family: "Playfair Display", serif;
         font-style: italic;
         font-size: $font-size-xxl;
-        font-weight: 900;
-        padding-top: 0;
-        padding-bottom: 0;
+        font-weight: $font-weight-900;
+        padding: 0 20rem 0 20rem;
     }
 }

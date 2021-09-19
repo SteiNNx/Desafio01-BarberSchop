@@ -6,3 +6,26 @@
         width: 100%;
     }
 }
+
+.pagination-barber {
+    li a {
+        font-weight: $font-weight-400;
+        color: $eerie-black;
+
+        &:hover {
+            color: $white;
+            background-color: $nickel;
+        }
+    }
+
+    .pagination-barber-first {
+        border-right: none;
+        border-top-left-radius: 50px !important;
+        border-bottom-left-radius: 50px !important;
+    }
+    .pagination-barber-end {
+        border-right: none;
+        border-top-right-radius: 50px !important;
+        border-bottom-right-radius: 50px !important;
+    }
+}

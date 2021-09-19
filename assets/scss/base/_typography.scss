@@ -1,6 +1,14 @@
 /** __Typography */
 
 $roboto-regular: "Roboto", serif;
+$playfair-display: "Playfair Display", serif;
+
+/** Style */
+$italic: italic;
+
+/** Weigh */
+$font-weight-900: 900;
+$font-weight-400: 400;
 
 /** Font Sizes */
 
@@ -15,4 +23,3 @@ body {
     font-family: $roboto-regular;
     font-weight: 300;
 }
-

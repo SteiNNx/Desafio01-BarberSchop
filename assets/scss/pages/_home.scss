@@ -1,7 +1,34 @@
 /** __Home */
 .section-blog {
-    p {
+    background-color: $white;
+
+    &__title {
+        font-family: $playfair-display;
+        opacity: 0.5;
+        margin-bottom: 2rem;
+    }
+
+    &__paraphors {
         line-height: 2 !important;
+    }
+
+    @media only screen and (min-width: 576px) {
+        padding: 3rem 9rem 3rem 9rem !important ;
     }
 }
 
+.img-avatar {
+    border-radius: 100%;
+    height: 200px;
+    width: 200px;
+}
+
+.avatar-title {
+    display: grid;
+    &__name {
+        font-family: $playfair-display;
+        font-style: $italic;
+        font-size: $font-size-xl;
+        font-weight: $font-weight-900;
+    }
+}
