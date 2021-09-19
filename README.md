@@ -1,6 +1,6 @@
 # **Desafio Barber Shop**
 Desarrollo Desafio 1 Modulo 02 CSS Avanzado
-[Ver Sitio](https://steinnx.github.io/Prueba01-ViajesChile/)
+[Ver Sitio](https://steinnx.github.io/Desafio01-BarberSchop/)
 ## **Compilar SCSS**
 
 * Directo con sass
